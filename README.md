@@ -1,3 +1,13 @@
+<img src="https://cdn.dpkgsoft.com/images/xorekcloud/png/logo-white.png" alt="XorekCloud logo" style="height: 100px;"/>
+
+## XorekCloud Pterodactyl Docker Repository
+This repository contains some useful images for Pterodactyl.
+
+### License
+If you want to use this images please copyright us!
+
+---
+# List
 
 ### Java
 - [Java 8](https://github.com/dpkgsoft/pterodactyl-docker-images/tree/master/java/8)

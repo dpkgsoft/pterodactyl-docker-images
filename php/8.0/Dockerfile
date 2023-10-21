@@ -6,8 +6,8 @@ LABEL org.opencontainers.image.licenses=MIT
 
 COPY ./../packages /packages
 
-RUN apt update
-RUN xargs apt install -y --no-install-recommends < /packages
+RUN apt-get update
+RUN xargs apt-get install -y --no-install-recommends < /packages
 RUN adduser -D -h /home/container container
 
 USER        container
